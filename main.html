@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<title>Заголовок</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="libs/bootstrap/css/bootstrap-grid.min.css">
+		<link rel="stylesheet" href="libs/jquery-ui/jquery-ui.min.css">
+		<link rel="stylesheet" href="libs/OwlCarousel/dist/assets/owl.carousel.min.css">
+		<link rel="stylesheet" href="libs/OwlCarousel/dist/assets/owl.theme.default.min.css">
+		<link rel="stylesheet" href="libs/bxslider/dist/jquery.bxslider.css">
+		<link rel="stylesheet" href="css/font.css">
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/media.css">
+	</head>
+	<body>
+		<header>
+			<div class="page bg-dark_blue">
+				<div class="container">
+					<div class="row">
+						<div class="nav-mob">
+							<div class="burger-menu">
+								<input type="checkbox" id="hmt" class="hidden-menu-ticker">
+								<label class="btn-menu" for="hmt">
+									<span class="first"></span>
+									<span class="second"></span>
+									<span class="third"></span>
+								</label>
+								<ul class="hidden-menu">
+									<div class="burger-top">
+										<p>
+											Агентство недвижимости
+											<span>ООО «Девелопмент»</span>
+										</p>
+										<div class="burger-top__href">
+											<p>
+												<a href="#">
+													<img src="img/icon/settings.png" alt="">
+												</a>
+												<a href="#">
+													Настройки
+												</a>
+											</p>
+											<p>
+												<a href="#">
+													<img src="img/icon/exit.png" alt="">
+												</a>
+												<a href="#">
+													Выйти
+												</a>
+											</p>
+										</div>
+									</div>
+									<div class="burger-center">
+										<ul class="burger-center__first">
+											<li>Заявки</li>
+											<li>Документы</li>
+										</ul>
+										<ul class="burger-center__second">
+											<li>Отчеты</li>
+											<li>Мои документы</li>
+											<li>Моя компания</li>
+											<li>Сотрудники</li>
+											<li>Объекты</li>
+										</ul>
+										<ul class="burger-center__last">
+											<li>О сервисе</li>
+											<li>Акции</li>
+											<li>Новости</li>
+											<li>Сотрудники</li>
+											<li>Работа с порталом</li>
+										</ul>
+									</div>
+									<div class="burger-bottom">
+										<div class="face-img">
+											<img src="img/Landing/face-mob.png" alt="">
+										</div>
+										<p>
+											Персональный менеджер
+											<span>Иванов Петр Иванович</span>
+										</p>
+										<a href="#">
+											lipeckih@gmail.com
+										</a>
+										<p>
+											8 495 660 51 65
+										</p>
+									</div>
+								</ul>
+							</div>
+							<div class="logo-mob">
+								<img src="img/icon/logo.png" alt="">
+							</div>
+							<div class="user-mob">
+								<div class="modal-menu">
+									<input type="checkbox" id="hmt-1" class="hidden-menu-ticker-1">
+									<label class="btn-menu-1" for="hmt-1">
+										<div class="close-btn-1">
+											<div></div>
+											<img src="img/icon/user.png" alt="">
+										</div>
+										<div class="close-btn-2">
+											<span class="first-1"></span>
+											<span class="second-1"></span>
+											<span class="third-1"></span>
+										</div>
+									</label>
+									<ul class="hidden-menu-1">
+										<div class="modal-menu__top"></div>
+										<div class="modal-menu__center">
+											<p class="mob-title">
+												Личный кабинет
+											</p>
+											<form action="#" method="post" class="form-mob">
+												<p>
+													Email
+													<br>
+													<input type="name" id="name" name="name" value="" />
+												</p>
+												<p>
+													Ваш пароль
+													<br>
+													<input type="password" id="password" name="password" value="" />
+												</p>
+												<a href="#" class="button__main button__main-second mob-button__menu">Войти в личный кабинет</a>
+												<a href="#" class="mob-button__menu-cancel">Отменить</a>
+											</form>
+											<div class="modal-menu__bottom">
+												<p>Если у вас еще нет Личного кабинета, зарегистрируйтесь</p>
+												<a href="#" class="button__main mob-button__menu-two">Зарегистрироваться</a>
+											</div>
+										</div>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="nav">
+							<ul>
+								<div class="logo-main">
+									<img src="img/icon/logo.png" alt="">
+								</div>
+								<li>
+									О компании
+									<div class="triangle"></div>
+								</li>
+								<li>
+									Статьи
+									<div class="triangle"></div>
+								</li>
+								<li>
+									Партнерам и агентам
+									<div class="triangle"></div>
+								</li>
+								<li>
+									Контакты
+									<div class="triangle"></div>
+								</li>
+								<li>
+									+7 (495) 902-55-56
+									<span>
+										<span class="line-li">Позвоните мне</span>
+										<div class="watsup">
+											<img src="img/icon/watsup.png" alt="">
+										</div>
+									</span>
+								</li>
+								<li>
+									<img src="img/icon/user.png" alt="">
+									Войти в ЛК
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="page">
+				<div class="container">
+					<div class="row">
+						<div class="top-header__main">
+							<p>Ипотечный маркетплейс</p>
+							<ul>
+								<li>
+									<img src="img/icon/check-green.png" alt="">
+									Не теряйте сделки из-за отказов банков
+								</li>
+								<li>
+									<img src="img/icon/check-green.png" alt="">
+									Единая анкета
+								</li>
+								<li>
+									<img src="img/icon/check-green.png" alt="">
+									Так быстро, насколько это возможно
+								</li>
+								<li>
+									<img src="img/icon/check-green.png" alt="">
+									Бесплатно
+								</li>
+								<li>
+									<img src="img/icon/check-green.png" alt="">
+									Подробные отчёты в один клик
+								</li>
+							</ul>
+							<div class="button-top__main">
+								<a href="#" class="button__main">Зарегистрироваться</a>
+								<a href="#" class="button__main button__main-second button__main-second-mob-none">Начать с демо-заявки</a>
+								<a href="#" class="button__main button__main-second button__main-second-mob">Демо</a>
+								<img src="img/icon/pointer.png" alt="" class="main-pointer__mob">
+							</div>
+							<div class="button-top__txt">
+								<p>Изучите возможности личного кабинета перед тем, как начать работать</p>
+								<img src="img/icon/pointer.png" alt="" class="main-pointer">
+							</div>
+							<img src="img/Landing/comp-1.png" alt="" class="top-main__img_comp">
+							<img src="img/Landing/tab-1.png" alt="" class="top-main__img_tab">
+							<img src="img/Landing/mob-1.png" alt="" class="top-main__img_mob">
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class="page">
+			<div class="container">
+				<p class="page-title__main page-title__main-margin">
+					Работа в личном кабинете
+				</p>
+				<div class="row row-main__increase-mob">
+					<div class="slider">
+						<ul class="bxslider">
+							<li>
+								<img src="img/Landing/increase-1.png"/>
+								<p>
+									<span>Шаг 1</span>
+									Зарегистрируйте заявку вашего клиента
+								</p>
+							</li>
+							<li>
+								<img src="img/Landing/increase-2.png"/>
+								<p>
+									<span>Шаг 2</span>
+									Мы проверим клиента и уберём неподходящие варианты
+								</p>
+							</li>
+							<li>
+								<img src="img/Landing/increase-3.png"/>
+								<p>
+									<span>Шаг 3</span>
+									Мы отправляем заявку, а вы следите за статусами
+								</p>
+							</li>
+							<li>
+								<img src="img/Landing/increase-4.png"/>
+								<p>
+									<span>Шаг 4</span>
+									Выбирайте объект и выходите на сделку
+								</p>
+							</li>
+						</ul>
+						<div id="bx-pager">
+							<a data-slide-index="0" href=""><p>1</p></a>
+							<a data-slide-index="1" href=""><p>2</p></a>
+							<a data-slide-index="2" href=""><p>3</p></a>
+							<a data-slide-index="3" href=""><p>4</p></a>
+						</div>
+					</div>
+				</div>
+				<div class="row row-main__increase">
+					<div class="col-md-3 main-increase">
+						<p>
+							<span>1.</span> <span>Зарегистрируйте заявку вашего клиента</span>
+						</p>
+						<img src="img/Landing/increase-1.png" alt="">
+					</div>
+					<div class="col-md-3 main-increase main-increase__second">
+						<img src="img/Landing/increase-2.png" alt="">
+						<p>
+							<span>2.</span> <span>Мы проверим клиента и уберём неподходящие варианты</span>
+						</p>
+					</div>
+					<div class="col-md-3 main-increase">
+						<p>
+							<span>3.</span> <span>Мы отправляем заявку, а вы следите за статусами</span>
+						</p>
+						<img src="img/Landing/increase-3.png" alt="">
+					</div>
+					<div class="col-md-3 main-increase">
+						<img src="img/Landing/increase-4.png" alt="">
+						<p>
+							<span>4.</span> <span>Выбирайте объект и выходите на сделку</span>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="coantainer-wrap bg-grey">
+				<div class="container container-financ-serv">
+					<p class="page-title__main">
+						«Финансовый сервис» в цифрах
+					</p>
+					<div class="row row-financ__serv-mob">
+						<div class="owl-carousel owl-carousel-2">
+							<div class="item">
+								<p>
+									<span>27%</span>
+									повторные обращения и рекомендации
+								</p>
+							</div>
+							<div class="item">
+								<p>
+									<span>36 часов</span>
+									среднее время получения положительного решения
+								</p>
+							</div>
+							<div class="item">
+								<p>
+									<span>10 %</span>
+									минимальное увеличение числа клиентов партнёра
+								</p>
+							</div>
+							<div class="item">
+								<p>
+									<span>36 часов</span>
+									прибыли тратим на обучение сотрудников
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="row row-financ__serv">
+						<div class="col-md-3 financ-serv">
+							<p>
+								27%
+								<span>повторные обращения и рекомендации</span>
+							</p>
+						</div>
+						<div class="col-md-3 financ-serv">
+							<p>
+								36 часов
+								<span>среднее время получения положительного решения</span>
+							</p>
+						</div>
+						<div class="col-md-3 financ-serv">
+							<p>
+								10 %
+								<span>минимальное увеличение числа клиентов партнёра</span>
+							</p>
+						</div>
+						<div class="col-md-3 financ-serv">
+							<p>
+								36 часов
+								<span>прибыли тратим на обучение сотрудников</span>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container container-border">
+				<p class="page-title__main">
+					Банки-партнёры
+				</p>
+				<div class="row">
+					<div class="col-md-11 carousel-banks">
+						<div class="navigation"></div>
+						<div class="owl-carousel owl-carousel-bank">
+							<div>
+								<img src="img/banks/bank-1.png" alt="">
+							</div>
+							<div>
+								<img src="img/banks/bank-2.png" alt="">
+							</div>
+							<div>
+								<img src="img/banks/bank-3.png" alt="">
+							</div>
+							<div>
+								<img src="img/banks/bank-4.png" alt="">
+							</div>
+							<div>
+								<img src="img/banks/bank-5.png" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<a href="#" class="button__main button__main-second button__main-banks">Стать партнёром сервиса</a>
+				</div>
+			</div>
+			<div class="container main-window__web-all container-border">
+				<p class="page-title__main page-title__main-mob">
+					Всё под контролем
+				</p>
+				<div class="row row-border_window container-border">
+					<div class="col-md-6 main-window__web-img">
+						<img src="img/Landing/window-web-1.png" alt="" class="main-window__web-img-screen">
+						<img src="img/Landing/window-web-mob-1.png" alt="" class="main-window__web-img-mob">
+					</div>
+					<div class="col-md-6 main-window__web">
+						<p class="page-title__main">
+							Всё под контролем
+						</p>
+						<ul>
+							<li>
+								<img src="img/icon/check-green.png" alt="">
+								Добавляйте сотрудников
+							</li>
+							<li>
+								<img src="img/icon/check-green.png" alt="">
+								Управляйте продажами
+							</li>
+							<li>
+								<img src="img/icon/check-green.png" alt="">
+								Следите за статистикой сделок
+							</li>
+						</ul>
+						<a href="#" class="button__main button__main-window-web">Зарегистрировать организацию</a>
+					</div>
+				</div>
+				<div class="row row-main-window_reverse">
+					<div class="col-md-6 main-window__web">
+						<p class="page-title__main">
+							Всё под контролем
+						</p>
+						<ul>
+							<li>
+								<img src="img/icon/check-green.png" alt="" class="img-window_pos">
+								Получайте заявки напрямую от клиентов, установив виджет на свой сайт
+							</li>
+							<li>
+								<img src="img/icon/check-green.png" alt="">
+								Проверка кредитной истории
+							</li>
+							<li>
+								<img src="img/icon/check-green.png" alt="">
+								Экспресс проверка клиента
+							</li>
+						</ul>
+						<div class="window-main__youtube">
+							<a href="#"><img src="img/icon/youtube.png" alt=""></a>
+							<a href="#">Посмотреть все возможности сервиса</a>
+						</div>
+					</div>
+					<div class="col-md-6 main-window__web main-window__web-img">
+						<p class="page-title__main page-title__main-mob-window">
+							Доп. возможности
+						</p>
+						<img src="img/Landing/window-web-1.png" alt="" class="main-window__web-img-screen">
+						<img src="img/Landing/window-web-mob-2.png" alt="" class="main-window__web-img-mob">
+					</div>
+				</div>
+			</div>
+			<div class="container main-container__video">
+				<p class="page-title__main">
+					Использование <span>Личного кабинета</span>
+				</p>
+				<p class="page-title__main-min">
+					Посмотрите видео-инструкцию об использовании Личного кабинета с описанием функционала и примерами работы
+				</p>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="main__video">
+							<p>video</p>
+						</div>
+						<div class="button-video__main">
+							<a href="#" class="button__main">Зарегистрироваться</a>
+							<a href="#" class="button__main button__main-second">
+								<img src="img/icon/user.png" alt="">
+								Войти в ЛК
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div class="container-wrap bg-grey">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 footer-block footer-block__one">
+							<p>
+								Есть вопросы? Позвоните нам:
+								<span>8 495 902 55 56</span>
+							</p>
+							<div>
+								<a href="#">Заказать звонок</a>
+								<a href="#">Написать сообщение</a>
+							</div>
+						</div>
+						<div class="col-md-6 footer-block footer-block__two">
+							<p>© «Финансовый сервис», 2000-2019 г.</p>
+							<div>
+								<a href="#">
+									<img src="img/icon/facebook.png" alt="">
+								</a>
+								<a href="#">
+									<img src="img/icon/vk.png" alt="">
+								</a>
+								<a href="#">
+									<img src="img/icon/you.png" alt="">
+								</a>
+								<a href="#">
+									<img src="img/icon/twit.png" alt="">
+								</a>
+								<a href="#">
+									<img src="img/icon/insta.png" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- scripts -->
+		<script type="text/javascript" src="libs/jquery/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="libs/jquery-ui/jquery-ui.min.js"></script>
+		<script src="libs/OwlCarousel/dist/owl.carousel.min.js"></script>
+		<script src="libs/bxslider/dist/jquery.bxslider.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
