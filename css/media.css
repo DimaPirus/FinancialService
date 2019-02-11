@@ -23,6 +23,22 @@ footer .row {
 padding-right: 20px;
 padding-left: 20px;
 }
+.top-main__img_comp {
+	right: -250px;
+	max-width: 600px;
+}
+.top-main__img_tab {
+	bottom: 10px;
+	right: 232px;
+	max-width: 220px;
+}
+.top-main__img_mob {
+	bottom: 35px;
+	right: 175px;
+	max-width: 120px;
+}
+.top-main__img_comp, .top-main__img_tab, .top-main__img_mob {
+}
 }
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 991px) {
@@ -51,6 +67,9 @@ width: 100%;
 }
 .nav ul li:nth-of-type(6) {
 padding: 0 10px;
+}
+.page-img_resize {
+background-size: 100% 550px;
 }
 .top-main__img_comp {
 max-width: 400px;
@@ -104,6 +123,9 @@ font-size: 23px;
 padding-top: 50px;
 padding-bottom: 45px;
 }
+.page-title__main-margin {
+	padding-top: 0;
+}
 .main-increase p span:nth-of-type(1) {
 font-size: 25px;
 }
@@ -152,6 +174,12 @@ font-size: 13px;
 .page-title__main-min {
 font-size: 13px;
 }
+.nav-border__dot:after {
+	bottom: 4px;
+}
+.line-li {
+	height: 18px;
+}
 }
 @media only screen and (max-width: 850px) {
 .nav {
@@ -166,6 +194,12 @@ font-size: 13px;
 .nav ul li:nth-of-type(5) span {
 font-size: 11px;
 }
+.nav-border__dot:after {
+	bottom: 3px;
+}
+.line-li {
+	height: 15px;
+} 
 .watsup {
 width: 20px;
 height: 20px;
@@ -395,6 +429,9 @@ footer .footer-block__two div {
 .row-border_window {
 	padding-bottom: 35px;
 }
+.container-border_mob {
+border-bottom: 1px solid #e9eaeb;
+}
 .main-window__web-all .row:nth-of-type(1) {
 margin-bottom: 32px;
 }
@@ -414,10 +451,7 @@ margin-bottom: 32px;
 	font-size: 15px;
 }
 .main__video {
-	height: 200px;
-}
-.main__video p {
-	margin-top: 15%;
+	height: 350px;
 }
 .button-video__main {
 	flex-direction: column;
@@ -469,10 +503,16 @@ footer .footer-block__two p {
 .button-top__txt {
 	width: 106%;
 }
+.main__video {
+	height: 330px;
+}
 }
 @media only screen and (max-width: 525px) {
 .button-top__txt {
 	width: 107%;
+}
+.main__video {
+	height: 300px;
 }
 }
 @media only screen and (max-width: 440px) {
@@ -481,6 +521,9 @@ footer .footer-block__two p {
 }
 .main-container__video .page-title__main span {
 	display: block;
+}
+.main__video {
+	height: 250px;
 }
 }
 @media only screen and (max-width: 400px) {
