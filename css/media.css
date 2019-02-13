@@ -49,7 +49,14 @@ padding: 0 15px;
 padding: 0 15px;
 }
 .tabContent-three {
-	padding: 0 15px;
+padding: 0 15px;
+}
+.padding-add {
+padding-right: 15px;
+padding-left: 15px;
+}
+.documents-main ul li a {
+font-size: 15px;
 }
 }
 @media only screen and (max-width: 1220px) {
@@ -103,6 +110,12 @@ margin-right: 20px;
 .user_agency {
 max-width: 270px;
 }
+.radio-checkbox label {
+font-size: 15px;
+}
+.radio-checkbox input[type=radio] + label:before {
+margin-right: 6px;
+}
 }
 @media only screen and (max-width: 1020px) {
 .tabContent-one_form a {
@@ -111,6 +124,9 @@ padding: 0 10px;
 }
 .tabContent-one_form a:nth-of-type(2) {
 max-width: 190px;
+}
+.radio-checkbox label {
+font-size: 14px;
 }
 }
 /* Medium Devices, Desktops */
@@ -393,7 +409,7 @@ color: #004b7a;
 width: 250px;
 }
 .agency_form__modal #tabs .tab {
-	width: 220px;
+width: 220px;
 }
 }
 @media only screen and (max-width: 850px) {
@@ -1021,17 +1037,17 @@ font-size: 18px;
 display: none;
 }
 .tabContent-three__center div:nth-of-type(1) {
-	flex-direction: column;
-	margin-bottom: 25px;
+flex-direction: column;
+margin-bottom: 25px;
 }
 .tabContent-three__center div:nth-of-type(1) p:nth-of-type(1) {
-	margin-bottom: 5px;
+margin-bottom: 5px;
 }
 .tabContent-three__center div:nth-of-type(2) {
-	height: 226px;
+height: 226px;
 }
 .tabContent-three__bottom p {
-	flex-direction: column;
+flex-direction: column;
 }
 .tabContent-three__bottom input::-webkit-input-placeholder {
 text-align: center;
@@ -1043,73 +1059,262 @@ text-align: center;
 text-align: center;
 }
 .tabContent-three__bottom {
-	margin-top: 41px;
-	margin-bottom: 41px;
+margin-top: 41px;
+margin-bottom: 41px;
 }
 .agency_form__modal ul .modal-agency__radio-main {
-	flex-direction: column-reverse;
+flex-direction: column-reverse;
 }
 .agency_form__modal ul .modal-agency__radio-main div {
-	margin-top: 30px;
+margin-top: 30px;
 }
 .modal-agency__radio-main div label:before {
-	top: 2px;
+top: 2px;
 }
 .poup-enter .modal_title, .poup-enter ul li {
-	padding: 0;
+padding: 0;
 }
 .poup-enter ul li:nth-of-type(3) {
-	background: transparent;
-	flex-direction: column-reverse;
+background: transparent;
+flex-direction: column-reverse;
 }
 .modal-agency__radio-2 div {
-	margin-top: 30px;
+margin-top: 30px;
 }
 .modal-agency__radio-2 div label {
-	text-align: center;
+text-align: center;
 }
 .modal-agency__radio-2 div label:before {
-	left: 40px;
+left: 40px;
 }
 .poup-enter ul li:nth-of-type(3) {
-	margin-top: 10px;
+margin-top: 10px;
 }
 .agency_form__modal #tabs {
-	margin-top: 20px;
+margin-top: 20px;
 }
 .agency_form__modal #tabs .tab {
-	display: block;
-	margin: 0 auto;
+display: block;
+margin: 0 auto;
 }
 .agency_form__modal #tabs .tab:nth-of-type(1) {
-	margin: 0 auto 10px auto;
+margin: 0 auto 10px auto;
 }
 .agency_form__modal #tabs .tab:nth-of-type(2) {
-	margin: 0 auto 10px auto;
+margin: 0 auto 10px auto;
 }
 .agency_form__modal #tabs .tab {
-	width: 260px;
+width: 260px;
 }
 .poup-enter-2 ul li:nth-of-type(6) {
-	background: transparent;
+background: transparent;
 }
 .poup-enter-2 ul .modal-agency__radio-6 {
-	display: flex;
-	flex-direction: column-reverse;
-	margin-top: 0;
-	padding-top: 0;
+display: flex;
+flex-direction: column-reverse;
+margin-top: 0;
+padding-top: 0;
 }
 .modal-agency__radio-6 div {
-	position: relative;
-	margin-top: 30px;
+position: relative;
+margin-top: 30px;
 }
 .modal-agency__radio-6 div label:before {
-	top: 10px;
-	bottom: 0;
+top: 10px;
+bottom: 0;
 }
 .modal-agency__radio-6 .button__main-second {
-	max-width: 260px;
-	height: 50px;
+max-width: 260px;
+height: 50px;
+}
+.breadcrumb-second li {
+width: auto;
+}
+.btn-request__none {
+display: none;
+}
+.name-page p {
+width: 100%;
+text-align: center;
+font-size: 24px;
+}
+.name-request__bottom {
+margin-top: 5px;
+flex-direction: column;
+justify-content: center;
+}
+.name-request__bottom p {
+text-align: center;
+}
+.name-request__bottom p:nth-of-type(2) {
+margin: 0;
+margin-top: 10px;
+}
+.name-request__bottom p:nth-of-type(2) span:nth-of-type(1) {
+display: none;
+}
+.name-request__bottom_second ul {
+flex-direction: column;
+}
+.name-request__bottom_second ul li span {
+display: inline-block;
+margin-right: 12px;
+}
+.name-request__bottom_second ul li {
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 15px;
+margin-right: 0;
+}
+.name-request__bottom_second {
+margin-top: 31px;
+}
+.name-request__bottom_second ul li a {
+max-width: 100%;
+height: 17px;
+}
+.name-request__bottom_second ul li span {
+margin: 0;
+}
+.name-request__bottom_second ul li a span {
+display: inline-block;
+}
+.name-request__bottom_second ul li a span:after {
+display: none;
+}
+.name-request__bottom_second ul li .btn-request__mob {
+max-width: 320px;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+border-bottom: none;
+border: 1px solid #bfd1dc;
+height: 40px;
+}
+.document-form__one ul {
+flex-direction: column;
+}
+#r-adress-12 .accordion, #r-adress-13 .accordion, #r-adress-14 .accordion, #r-adress-15 .accordion, #r-adress-16 .accordion, #r-adress-17 .accordion, #r-adress-18 .accordion, #r-adress-19 .accordion, #r-adress-20 .accordion, #r-adress-21 .accordion, #r-adress-22 .accordion, #r-adress-23 .accordion, #r-adress-24 .accordion, #r-adress-25 .accordion,#r-adress-10 .accordion, #r-adress-11 .accordion {
+font-size: 16px;
+}
+.document-form__r-btn .radio-form__all {
+flex-direction: column;
+}
+.document-form__one .drop {
+position: relative;
+}
+.document-form__one ul li {
+margin-bottom: 20px;
+}
+.document-form__form-btn {
+flex-direction: column-reverse;
+margin-bottom: 0;
+}
+.document-form__form-btn .btn-del {
+margin-top: 10px;
+margin-right: 0;
+}
+#r-adress-12 .accordion,
+#r-adress-13 .accordion,
+#r-adress-14 .accordion,
+#r-adress-15 .accordion,
+#r-adress-20 .accordion,
+#r-adress-21 .accordion {
+height: 75px;
+align-items: flex-start;
+position: relative;
+padding-top: 12px;
+}
+#r-adress-14 .btn-change, #r-adress-15 .btn-change,
+#r-adress-12 .btn-change, #r-adress-13 .btn-change,
+#r-adress-20 .btn-change, #r-adress-21 .btn-change {
+top: 44px;
+left: 54px;
+z-index: 1;
+}
+#r-adress-14 .accordion span,
+#r-adress-15 .accordion span,
+#r-adress-12 .accordion span,
+#r-adress-13 .accordion span,
+#r-adress-20 .accordion span,
+#r-adress-21 .accordion span  {
+margin-top: 15px;
+}
+#r-adress-14 .accordion img,
+#r-adress-15 .accordion img,
+#r-adress-12 .accordion img,
+#r-adress-13 .accordion img,
+#r-adress-20 .accordion img,
+#r-adress-21 .accordion img {
+margin-top: 24px;
+}
+.download-zone__name .radio-checkbox {
+display: none;
+}
+.download-zone__name p {
+width: 100%;
+text-align: center;
+}
+.download-zone #upload-container span {
+display: none;
+}
+.download-zone #upload-container label,
+.agreement-requst #upload-container label {
+border-bottom: 1px dotted #004b7a;
+}
+#r-adress-24 .accordion,
+#r-adress-25 .accordion {
+height: 75px;
+}
+.btn-agreement--screen {
+display: none;
+}
+.btn-agreement--mob {
+display: block;
+}
+.btn-agreement--mob input {
+margin-top: 15px;
+max-width: 320px;
+width: 100%;
+height: 40px;
+padding-left: 15px;
+border-radius: 20px;
+border: 1px solid #e9eaeb;
+}
+.btn-agreement--mob input[placeholder] {
+font-family: OpenSans;
+font-size: 13px;
+color: #999999;
+}
+.btn-agreement--mob input::-moz-placeholder {
+font-family: OpenSans;
+font-size: 13px;
+color: #999999;
+}
+.btn-agreement--mob input:-moz-placeholder {
+font-family: OpenSans;
+font-size: 13px;
+color: #999999;
+}
+.btn-agreement--mob input:-ms-input-placeholder {
+font-family: OpenSans;
+font-size: 13px;
+color: #999999;
+}
+.download-name__mob {
+	display: block;
+	font-family: OpenSans;
+  font-size: 13px;
+  color: #999999;
+  margin-top: 25px;
+}
+.agreement-requst #upload-container span {
+	display: none;
+}
+.container-request {
+	padding-bottom: 40px;
 }
 }
 @media only screen and (max-width: 620px) {
@@ -1148,6 +1353,22 @@ max-width: 120px;
 }
 .bell-mob {
 margin-left: 0;
+}
+#r-adress-20 .accordion,
+#r-adress-21 .accordion {
+	height: 85px;
+	padding-top: 5px;
+}
+#r-adress-20 .btn-change, #r-adress-21 .btn-change {
+	top: 58px;
+}
+#r-adress-20 .accordion span,
+#r-adress-21 .accordion span {
+	margin-top: 27px;
+}
+#r-adress-20 .accordion img,
+#r-adress-21 .accordion img {
+	margin-top: 35px;
 }
 }
 @media only screen and (max-width: 350px) {
