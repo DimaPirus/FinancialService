@@ -2969,6 +2969,7 @@ border-bottom: 1px dotted #004b7a;
 #r-adress-24 .accordion span,
 #r-adress-25 .accordion span {
   min-width: 20px;
+  width: 20px;
   background: none;
   border-radius: 50%;
   border: 2px solid #6fa9de;
