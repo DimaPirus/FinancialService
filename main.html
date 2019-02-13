@@ -93,46 +93,9 @@
 								<img src="img/icon/logo.png" alt="">
 							</div>
 							<div class="user-mob">
-								<div class="modal-menu">
-									<input type="checkbox" id="hmt-1" class="hidden-menu-ticker-1">
-									<label class="btn-menu-1" for="hmt-1">
-										<div class="close-btn-1">
-											<div></div>
-											<img src="img/icon/user.png" alt="">
-										</div>
-										<div class="close-btn-2">
-											<span class="first-1"></span>
-											<span class="second-1"></span>
-											<span class="third-1"></span>
-										</div>
-									</label>
-									<ul class="hidden-menu-1">
-										<div class="modal-menu__top"></div>
-										<div class="modal-menu__center">
-											<p class="mob-title">
-												Личный кабинет
-											</p>
-											<form action="#" method="post" class="form-mob">
-												<p>
-													Email
-													<br>
-													<input type="name" id="name" name="name" value="" />
-												</p>
-												<p>
-													Ваш пароль
-													<br>
-													<input type="password" id="password" name="password" value="" />
-												</p>
-												<a href="#" class="button__main button__main-second mob-button__menu">Войти в личный кабинет</a>
-												<a href="#" class="mob-button__menu-cancel">Отменить</a>
-											</form>
-											<div class="modal-menu__bottom">
-												<p>Если у вас еще нет Личного кабинета, зарегистрируйтесь</p>
-												<a href="#" class="button__main mob-button__menu-two">Зарегистрироваться</a>
-											</div>
-										</div>
-									</ul>
-								</div>
+								<a href="#win7" class="button-menu">
+									<img src="img/icon/user.png" alt="">
+								</a>
 							</div>
 						</div>
 						<div class="nav">
@@ -158,16 +121,20 @@
 								</li>
 								<li>
 									+7 (495) 902-55-56
-									<span>
-										<span class="line-li">Позвоните мне</span>
-										<div class="watsup">
-											<img src="img/icon/watsup.png" alt="">
-										</div>
-									</span>
+									<a href="#win6" class="button-menu">
+										<span>
+											<span class="line-li">Позвоните мне</span>
+											<div class="watsup">
+												<img src="img/icon/watsup.png" alt="">
+											</div>
+										</span>
+									</a>
 								</li>
 								<li>
-									<img src="img/icon/user.png" alt="">
-									<span class="nav-border__dot">Войти в ЛК</span>
+									<a href="#win7" class="button-menu">
+										<img src="img/icon/user.png" alt="">
+										<span class="nav-border__dot">Войти в ЛК</span>
+									</a>
 								</li>
 							</ul>
 						</div>
@@ -202,7 +169,7 @@
 								</li>
 							</ul>
 							<div class="button-top__main">
-								<a href="#" class="button__main">Зарегистрироваться</a>
+								<a href="#win8" class="button__main">Зарегистрироваться</a>
 								<a href="#" class="button__main button__main-second button__main-second-mob-none">Начать с демо-заявки</a>
 								<a href="#" class="button__main button__main-second button__main-second-mob">Демо</a>
 								<img src="img/icon/pointer.png" alt="" class="main-pointer__mob">
@@ -516,6 +483,165 @@
 				</div>
 			</div>
 		</footer>
+		<div class="modal-windows">
+			<div class="container-menu">
+				<!-- Модальное окно 1 -->
+				<a href="#x" class="overlay-menu" id="win6"></a>
+				<div class="popup-menu">
+					<div class="navbar-model__mob"></div>
+					<div class="poup-1">
+						<p class="modal_title">
+							Перезвоните мне
+						</p>
+						<form class="agency_form__modal" action="" method="post" name="agency_form__modal">
+							<ul>
+								<li>
+									<p>Ваше имя</p>
+									<input type="text" name="name" placeholder="Введите имя" />
+								</li>
+								<li>
+									<p>Телефон</p>
+									<input type="number" name="number" placeholder="Введите телефон"/>
+								</li>
+								<li class="modal-buttons modal-agency__radio modal-agency__radio-main">
+									<div>
+										<input type="checkbox" id="radio1" name="radio" />
+										<label for="radio1"><span>Даю согласие на обработку персональных данных копия</span></label>
+									</div>
+									<a href="#" class="button__main button__main-second modal__button-second">Отправить</a>
+								</li>
+							</ul>
+						</form>
+					</div>
+					
+					<a class="close-menu" title="Закрыть" href="#close"></a>
+				</div>
+			</div>
+			<div class="container-menu">
+				<!-- Модальное окно 1 -->
+				<a href="#x" class="overlay-menu" id="win7"></a>
+				<div class="popup-menu">
+					<div class="navbar-model__mob"></div>
+					<div class="poup-1 poup-enter">
+						<p class="modal_title">
+							Личный кабинет
+						</p>
+						<form class="agency_form__modal" action="" method="post" name="agency_form__modal">
+							<ul>
+								<li>
+									<p>E-mail</p>
+									<input type="text" name="name" placeholder="Введите E-mail" />
+								</li>
+								<li class="password-none__modal">
+									<p><span>Пароль</span> <span><a href="#">Забыли пароль?</a></span></p>
+									<input type="password" name="password" placeholder="Введите пароль"/>
+								</li>
+								<li class="modal-buttons modal-agency__radio modal-agency__radio-2">
+									<div>
+										<input type="checkbox" id="radio2" name="radio" />
+										<label for="radio2"><span>Запомнить меня</span></label>
+										<p>Нет аккаунта? <a href="#">Зарегистрируйтесь</a></p>
+									</div>
+									<a href="#" class="button__main button__main-second modal__button-second">Войти</a>
+								</li>
+							</ul>
+						</form>
+					</div>
+					
+					<a class="close-menu" title="Закрыть" href="#close"></a>
+				</div>
+			</div>
+			<div class="container-menu">
+				<!-- Модальное окно 1 -->
+				<a href="#x" class="overlay-menu" id="win8"></a>
+				<div class="popup-menu">
+					<div class="navbar-model__mob"></div>
+					<div class="poup-1 poup-enter poup-enter-2">
+						<p class="modal_title">
+							Личный кабинет
+						</p>
+						<form class="agency_form__modal" action="" method="post" name="agency_form__modal">
+							<div id="tabs">
+								<div class="tab whiteborder"><img src="img/icon/bag-modal.png" alt=""> Агентства</div>
+								<div class="tab"><img src="img/icon/user.png" alt=""> Менеджера</div>
+								<div class="tabContent">
+									<ul>
+								<li>
+									<p>Фамилия, имя и отчество</p>
+									<input type="text" name="name" placeholder="Введите имя" />
+								</li>
+								<li>
+									<p>Телефон</p>
+									<input type="number" name="number" placeholder="Введите телефон" />
+								</li>
+								<li>
+									<p>Email</p>
+									<input type="text" name="text" placeholder="Введите e-mail" />
+								</li>
+								<li>
+									<p>Ваше агентство</p>
+									<input type="text" name="text" placeholder="Введите название агенства" />
+								</li>
+								<li class="modal-agency__radio modal-agency__radio-4 modal-agency__radio-5">
+									<div>
+										<input type="radio" id="radio5" name="radio" />
+										<label for="radio5"><span>Агентство недвижимости</span></label>
+									</div>
+									<div>
+										<input type="radio" id="radio6" name="radio" />
+										<label for="radio6"><span>Застройщик</span></label>
+									</div>
+								</li>
+								<li class="modal-buttons modal-agency__radio modal-agency__radio-3 modal-agency__radio-6">
+									<div>
+										<input type="checkbox" id="radio7" name="radio" />
+										<label for="radio7"><span>Даю согласие на обработку персональных данных</span></label>
+									</div>
+									<a href="#" class="button__main button__main-second">Зарегистрироваться</a>
+								</li>
+							</ul>
+								</div>
+								<div class="tabContent">
+									<ul>
+								<li>
+									<p>Фамилия, имя и отчество</p>
+									<input type="text" name="name" placeholder="Введите имя" />
+								</li>
+								<li>
+									<p>Телефон</p>
+									<input type="number" name="number" placeholder="Введите телефон" />
+								</li>
+								<li>
+									<p>Email</p>
+									<input type="text" name="text" placeholder="Введите e-mail" />
+								</li>
+								<li>
+									<p>Ваше агентство</p>
+									<input type="text" name="text" placeholder="Введите название агенства" />
+								</li>
+								<li class="modal-agency__radio modal-agency__radio-4">
+									<div>
+										<input type="checkbox" id="radio4" name="radio" />
+										<label for="radio4"><span>Частный риэлтор</span></label>
+									</div>
+								</li>
+								<li class="modal-buttons modal-agency__radio modal-agency__radio-3 modal-agency__radio-6">
+									<div>
+										<input type="checkbox" id="radio3" name="radio" />
+										<label for="radio3"><span>Даю согласие на обработку персональных данных</span></label>
+									</div>
+									<a href="#" class="button__main button__main-second">Зарегистрироваться</a>
+								</li>
+							</ul>
+								</div>
+							</div>
+						</form>
+					</div>
+					
+					<a class="close-menu" title="Закрыть" href="#close"></a>
+				</div>
+			</div>
+		</div>
 		<!-- scripts -->
 		<script type="text/javascript" src="libs/jquery/jquery-3.3.1.min.js"></script>
 		<script type="text/javascript" src="libs/jquery-ui/jquery-ui.min.js"></script>
