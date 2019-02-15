@@ -129,21 +129,20 @@ dropBlock.slideUp();
 /* Предотвращаем обычное поведение ссылки при клике */
 return false;
 });
-//скопировать iframe
-var button = document.getElementById('userButton');
-button.addEventListener('click', function () {
-  //нашли наш контейнер
-  var ta = document.getElementById('cont'); 
-  //производим его выделение
-  var range = document.createRange();
-  range.selectNode(ta); 
-  window.getSelection().addRange(range); 
-  //пытаемся скопировать текст в буфер обмена
-  try { 
-    document.execCommand('copy'); 
-  } catch(err) { 
-    console.log('Can`t copy, boss'); 
-  } 
-  //очистим выделение текста, чтобы пользователь "не парился"
-  window.getSelection().removeAllRanges();
-}); 
+// Bell
+$('.notific').click(function(){
+/* Заносим выпадающий список в переменную */
+var dropBlock = $(this).parent().find('.messages');
+/* Делаем проверку: Если выпадающий блок скрыт то делаем его видимым*/
+if( dropBlock.is(':hidden') ) {
+dropBlock.slideDown();
+/* Выделяем ссылку открывающую select */
+$(this).addClass('active');
+/* Продолжаем проверку: Если выпадающий блок не скрыт то скрываем его */
+} else {
+$(this).removeClass('active');
+dropBlock.slideUp();
+}
+/* Предотвращаем обычное поведение ссылки при клике */
+return false;
+});
