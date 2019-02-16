@@ -3512,8 +3512,8 @@ max-width: 290px;
 width: 100%;
 }
 .settings-main {
-margin-top: 75px;
-margin-bottom: 30px;
+margin-top: 71px;
+margin-bottom: 20px;
 }
 .name-settings {
 margin-bottom: 25px;
@@ -3534,7 +3534,7 @@ color: #999999;
 color: #999999;
 }
 .settings-main .row {
-margin-bottom: 23px;
+margin-bottom: 20px;
 }
 .settings li {
 position: relative;
