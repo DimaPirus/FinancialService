@@ -517,6 +517,9 @@ left: 50%;
 margin-left: -10px;
 display: none;
 }
+.triangle-visible {
+  display: block;
+}
 .triangle::after {
 content: '';
 position: absolute;
@@ -3361,12 +3364,13 @@ color: #111111;
 .tr-right {
 position: relative;
 }
-.tr-right p:nth-of-type(n+2) {
+.tr-right p:nth-child(n+2) {
 position: absolute;
 bottom: 0;
 }
 .tr .tr-right .position_p {
-bottom: 18px;
+  position: absolute;
+bottom: 18px
 }
 .screen_table-none {
 display: none;
@@ -3560,7 +3564,8 @@ max-width: 290px;
 width: 100%;
 }
 .settings-main {
-margin-top: 60px;
+margin-top: 60ьфкпшт-ещзЖ 60зчж
+px;
 margin-bottom: 20px;
 }
 .name-settings {
