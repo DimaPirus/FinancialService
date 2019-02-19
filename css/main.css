@@ -1582,6 +1582,7 @@ opacity: 1;
 }
 /* стили модального окна */
 .popup-menu {
+  display: none;
 top: 0;
 left: 50%;
 font-size: 14px;
@@ -1608,6 +1609,7 @@ transition: transform 0.6s ease-out, -webkit-transform 0.6s ease-out;
 }
 /* активируем мод. окно */
 .overlay-menu:target+.popup-menu {
+  display: block;
 top: 50%;
 -webkit-transform: translate(-50%,-50%);
 transform: translate(-50%, -50%);
