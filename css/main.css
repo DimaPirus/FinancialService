@@ -3964,3 +3964,7 @@ display: block;
   margin-top: 61px;
   margin-bottom: 38px;
 }
+.logo-main a {
+  display: flex;
+  align-items: center;
+}
